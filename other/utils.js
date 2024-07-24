@@ -1,6 +1,6 @@
 const hostname =
 	process.env.GITHUB_REF_NAME === 'dev'
-		? 'kcd-staging.fly.dev'
+		? 'https://sfh.fly.dev'
 		: 'kentcdodds.com'
 
 // try to keep this dep-free so we don't have to install deps
