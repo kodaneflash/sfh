@@ -178,7 +178,7 @@ We use Tailwind and PostCSS for our styles. That's all configured in the
 
 ## Database
 
-We've got SQLite and Prisma set up. Learn about the schema and learn more aboutn
+We've got SQLite and Prisma set up. Learn about the schema and learn more about
 what commands you can run in `./prisma/schema.prisma`.
 
 One common command you might need to run is to re-seed the database:
