@@ -62,8 +62,8 @@ const githubHandlers: Array<HttpHandler> = [
 			}
 			const path = decodeURIComponent(params.path).trim()
 			const isMockable =
-				owner === 'kentcdodds' &&
-				repo === 'kentcdodds.com' &&
+				owner === 'kodaneflash' &&
+				repo === 'sfh' &&
 				path.startsWith('content')
 
 			if (!isMockable) {

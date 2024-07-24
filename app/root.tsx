@@ -93,7 +93,7 @@ export const meta: MetaFunction<typeof loader> = ({ data }) => {
 				url: getDisplayUrl(requestInfo),
 				words:
 					'Helping people make the world a better place through quality software.',
-				featuredImage: 'kentcdodds.com/illustrations/kody-flying_blue',
+				featuredImage: 'SoloFoundersHub.com/illustrations/kody-flying_blue',
 			}),
 			title,
 			description,
@@ -601,7 +601,7 @@ export function ErrorBoundary() {
 					<ErrorPage
 						heroProps={{
 							title: "404 - Oh no, you found a page that's missing stuff.",
-							subtitle: `"${location.pathname}" is not a page on kentcdodds.com. So sorry.`,
+							subtitle: `"${location.pathname}" is not a page on SoloFoundersHub.com. So sorry.`,
 							image: (
 								<MissingSomething className="rounded-lg" aspectRatio="3:4" />
 							),
@@ -673,7 +673,7 @@ function kcdLiveReloadConnect(config?: { onOpen: () => void }) {
 	ws.onmessage = (message) => {
 		const event = JSON.parse(message.data)
 		if (
-			event.type === 'kentcdodds.com:file-change' &&
+			event.type === 'SoloFoundersHub.com:file-change' &&
 			event.data.relativePath === location.pathname
 		) {
 			window.location.reload()
@@ -687,7 +687,7 @@ function kcdLiveReloadConnect(config?: { onOpen: () => void }) {
 	ws.onclose = (event) => {
 		if (event.code === 1006) {
 			console.log(
-				'kentcdodds.com dev server web socket closed. Reconnecting...',
+				'SoloFoundersHub.com dev server web socket closed. Reconnecting...',
 			)
 			setTimeout(
 				() =>
@@ -699,7 +699,7 @@ function kcdLiveReloadConnect(config?: { onOpen: () => void }) {
 		}
 	}
 	ws.onerror = (error) => {
-		console.log('kentcdodds.com dev server web socket error:')
+		console.log('SoloFoundersHub.com dev server web socket error:')
 		console.error(error)
 	}
 }

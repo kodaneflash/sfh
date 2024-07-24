@@ -16,7 +16,7 @@ export default function NotFoundPage() {
 		<main>
 			<HeroSection
 				title="404 - Oh no, you found a page that's missing stuff."
-				subtitle="This is not a page on kentcdodds.com. So sorry."
+				subtitle="This is not a page on solofoundershub.com. So sorry."
 				imageBuilder={images.bustedOnewheel}
 			/>
 		</main>

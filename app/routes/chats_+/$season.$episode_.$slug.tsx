@@ -95,7 +95,7 @@ export const meta: MetaFunction<typeof loader, { root: RootLoaderType }> = ({
 		episodeNumber,
 		seasonNumber,
 	} = episode
-	const title = `${episode.title} | Chats with Kent Podcast | ${episodeNumber}`
+	const title = `${episode.title} | Chats with James Podcast | ${episodeNumber}`
 	const playerUrl = `https://player.simplecast.com/${simpleCastId}`
 	return [
 		...getSocialMetas({

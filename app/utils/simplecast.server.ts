@@ -340,7 +340,7 @@ async function parseSummaryMarkdown(
 					// can't remove elements from an array while you're iterating
 					// over that array, so we have to do it afterwards
 
-					if (/kent c. dodds/i.test(sectionTitle)) {
+					if (/solo founders hub/i.test(sectionTitle)) {
 						// we don't need to add any meta data for Kent.
 						remove()
 						continue

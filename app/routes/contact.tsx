@@ -68,11 +68,11 @@ export async function action({ request }: ActionFunctionArgs) {
 
 			// this bit is included so I can have a filter that ensures
 			// messages sent from the contact form never end up in spam.
-			const noSpamMessage = '- Sent via the KCD Contact Form'
+			const noSpamMessage = '- Sent via the SFH Contact Form'
 
 			await sendEmail({
 				from: sender,
-				to: `"Kent C. Dodds" <me@kentcdodds.com>`,
+				to: `"Kent C. Dodds" <me@solofoundershub.com>`,
 				subject,
 				text: `${body}\n\n${noSpamMessage}`,
 			})

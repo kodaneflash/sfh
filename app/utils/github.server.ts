@@ -128,8 +128,8 @@ async function downloadDirectory(dir: string): Promise<Array<GitHubFile>> {
  */
 async function downloadFileBySha(sha: string) {
 	const { data } = await octokit.git.getBlob({
-		owner: 'kentcdodds',
-		repo: 'kentcdodds.com',
+		owner: 'kodaneflash',
+		repo: 'sfh',
 		file_sha: sha,
 	})
 	//                                lol
@@ -142,8 +142,8 @@ async function downloadFileBySha(sha: string) {
 // nice thing is it's not rate limited
 async function downloadFile(path: string) {
 	const { data } = await octokit.repos.getContent({
-		owner: 'kentcdodds',
-		repo: 'kentcdodds.com',
+		owner: 'kodaneflash',
+		repo: 'sfh',
 		path,
 		ref,
 	})
@@ -166,8 +166,8 @@ async function downloadFile(path: string) {
  */
 async function downloadDirList(path: string) {
 	const resp = await octokit.repos.getContent({
-		owner: 'kentcdodds',
-		repo: 'kentcdodds.com',
+		owner: 'kodaneflash',
+		repo: 'sfh',
 		path,
 		ref,
 	})

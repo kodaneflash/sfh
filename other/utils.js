@@ -1,7 +1,7 @@
 const hostname =
 	process.env.GITHUB_REF_NAME === 'dev'
 		? 'https://sfh.fly.dev'
-		: 'kentcdodds.com'
+		: 'solofoundershub.com'
 
 // try to keep this dep-free so we don't have to install deps
 export async function postRefreshCache({

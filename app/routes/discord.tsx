@@ -331,7 +331,7 @@ export default function Discord() {
 									description={
 										user
 											? `As a member of the ${user.team.toLocaleLowerCase()} team, connect your discord account and you'll get access to the exclusive ${user.team.toLocaleLowerCase()} team channels.`
-											: 'Sign up for an account on kentcdodds.com and connect your discord account to get access to the exclusive team channels.'
+											: 'Sign up for an account on solofoundershub.com and connect your discord account to get access to the exclusive team channels.'
 									}
 									icon={<MessageIcon size={48} />}
 								/>

@@ -41,8 +41,8 @@ function ContactSection() {
 		<div>
 			<H6 as="div">Contact</H6>
 			<ul className="mt-4">
-				<FooterLink name="Email Kent" href="/contact" />
-				<FooterLink name="Call Kent" href="/calls" />
+				<FooterLink name="Email us" href="/contact" />
+				<FooterLink name="Call us" href="/calls" />
 				<FooterLink name="Office hours" href="/office-hours" />
 			</ul>
 		</div>
@@ -87,7 +87,7 @@ function SitemapSection() {
 function AboutSection() {
 	return (
 		<div>
-			<H4 as="div">Kent C. Dodds</H4>
+			<H4 as="div">Solo Founders Hub</H4>
 
 			<p className="text-secondary mt-6 max-w-md text-2xl">
 				Full time educator making our world better
@@ -201,7 +201,7 @@ function Footer({ image }: { image: ImageBuilder }) {
 
 					<div className="col-span-full mt-24 text-lg text-gray-500 dark:text-slate-500 md:mt-44">
 						<span>All rights reserved</span>{' '}
-						<span className="block md:inline">{`© Kent C. Dodds ${new Date().getFullYear()}`}</span>
+						<span className="block md:inline">{`© SoloFoundersHub ${new Date().getFullYear()}`}</span>
 					</div>
 				</div>
 			</div>

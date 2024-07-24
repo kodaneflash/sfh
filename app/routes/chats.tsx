@@ -86,12 +86,12 @@ export const meta: MetaFunction<typeof loader, { root: RootLoaderType }> = ({
 	const requestInfo = matches.find((m) => m.id === 'root')?.data.requestInfo
 
 	return getSocialMetas({
-		title: 'Chats with Kent C. Dodds Podcast',
+		title: 'Chats with SoloFoundersHub Podcast',
 		description: `Become a better person with ${episodeCount} interesting and actionable conversations with interesting people.`,
-		keywords: `chats with kent, kent c. dodds`,
+		keywords: `chats with SoloFoundersHub, SoloFoundersHub`,
 		url: getUrl(requestInfo),
 		image: getGenericSocialImage({
-			words: 'Listen to the Chats with Kent Podcast',
+			words: 'Listen to the Chats with SoloFoundersHub Podcast',
 			featuredImage: images.kayak.id,
 			url: getDisplayUrl({
 				origin: getOrigin(requestInfo),
