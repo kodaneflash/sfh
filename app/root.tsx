@@ -76,7 +76,7 @@ export const handle: KCDHandle & { id: string } = {
 
 export const meta: MetaFunction<typeof loader> = ({ data }) => {
 	const requestInfo = data?.requestInfo
-	const title = 'Kent C. Dodds'
+	const title = 'SoloFoundersHub'
 	const description =
 		'Come check out how Kent C. Dodds can help you level up your career as a software engineer.'
 	return [
@@ -92,7 +92,7 @@ export const meta: MetaFunction<typeof loader> = ({ data }) => {
 			image: getGenericSocialImage({
 				url: getDisplayUrl(requestInfo),
 				words:
-					'Helping people make the world a better place through quality software.',
+					'Tes123.',
 				featuredImage: 'SoloFoundersHub.com/illustrations/kody-flying_blue',
 			}),
 			title,
