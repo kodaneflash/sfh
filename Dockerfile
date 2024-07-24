@@ -86,10 +86,6 @@ COPY --from=build /app/node_modules/.prisma /app/node_modules/.prisma
 COPY --from=build /app/build /app/build
 COPY --from=build /app/public /app/public
 COPY --from=build /app/server-build /app/server-build
-COPY --from=build /app/prisma/schema.prisma /app/prisma/schema.prisma
-
-RUN ls -la /app/prisma
-RUN cat /app/prisma/schema.prisma
 
 ADD . .
 
