@@ -81,7 +81,7 @@ RUN echo "#!/bin/sh\nset -x\nsqlite3 \$CACHE_DATABASE_PATH" > /usr/local/bin/cac
 RUN mkdir /app/
 WORKDIR /app/
 
-COPY --from=production-deps /app/nodse_modules /app/node_modules
+COPY --from=production-deps /app/node_modules /app/node_modules
 COPY --from=build /app/node_modules/.prisma /app/node_modules/.prisma
 COPY --from=build /app/build /app/build
 COPY --from=build /app/public /app/public
