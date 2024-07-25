@@ -62,7 +62,7 @@ async function sendMagicLinkEmail({
 	user?: User | null
 	domainUrl: string
 }) {
-	const sender = `"Kent C. Dodds Team" <team+kcd@kentcdodds.com>`
+	const sender = `"SoloFoundersHub Team" <team+sfh@solofounderhub.com>`
 	const { hostname } = new URL(domainUrl)
 	const userExists = Boolean(user)
 
@@ -80,13 +80,13 @@ ${
 		? `Welcome back ${emailAddress}!`
 		: `
 Clicking the link above will create a *new* account on ${hostname} with the email ${emailAddress}. Welcome!
-If you'd instead like to change your email address for an existing account, please send an email to team+email-change@kentcdodds.com from the original email address.
+If you'd instead like to change your email address for an existing account, please send an email to team+email-change@solofounderhub.com from the original email address.
       `.trim()
 }
 
 Thanks!
 
-– The KCD Team
+– The SoloFoundersHub Team
 
 P.S. If you did not request this email, you can safely ignore it.
   `.trim()
@@ -156,7 +156,7 @@ P.S. If you did not request this email, you can safely ignore it.
 	const message = {
 		from: sender,
 		to: emailAddress,
-		subject: `Here's your Magic ✨ sign-in link for kentcdodds.com`,
+		subject: `Here's your Magic ✨ sign-in link for solofoundershub.com`,
 		text,
 		html,
 	}

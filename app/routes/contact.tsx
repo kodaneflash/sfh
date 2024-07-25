@@ -72,7 +72,7 @@ export async function action({ request }: ActionFunctionArgs) {
 
 			await sendEmail({
 				from: sender,
-				to: `"Kent C. Dodds" <me@solofoundershub.com>`,
+				to: `"Kent C. Dodds" <me@solofounderhub.com>`,
 				subject,
 				text: `${body}\n\n${noSpamMessage}`,
 			})
@@ -93,13 +93,13 @@ export const meta: MetaFunction<{}, { root: RootLoaderType }> = ({
 }) => {
 	const requestInfo = matches.find((m) => m.id === 'root')?.data.requestInfo
 	return getSocialMetas({
-		title: 'Contact Kent C. Dodds',
-		description: 'Send Kent C. Dodds a personal email.',
+		title: 'Contact SoloFoundersHub',
+		description: 'Send SoloFoundersHub a personal email.',
 		url: getUrl(requestInfo),
 		image: getGenericSocialImage({
 			url: getDisplayUrl(requestInfo),
 			featuredImage: 'unsplash/photo-1563225409-127c18758bd5',
-			words: `Shoot Kent an email`,
+			words: `Shoot SoloFoundersHub an email`,
 		}),
 	})
 }

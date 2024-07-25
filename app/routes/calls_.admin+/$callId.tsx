@@ -114,12 +114,12 @@ export async function action({ request, params }: ActionFunctionArgs) {
 			try {
 				void sendEmail({
 					to: call.user.email,
-					from: `"Kent C. Dodds" <hello+calls@solofoundershub.com>`,
-					subject: `Your "Call Kent" episode has been published`,
+					from: `"Kent C. Dodds" <hello+calls@solofounderhub.com>`,
+					subject: `Your "Call SoloFoundersHub" episode has been published`,
 					text: `
 Hi ${call.user.firstName},
 
-Thanks for your call. Kent just replied and the episode has been published to the podcast!
+Thanks for your call. SoloFoundersHub just replied and the episode has been published to the podcast!
 
 [![${title}](${imageUrl})](${episodeUrl})
           `.trim(),
