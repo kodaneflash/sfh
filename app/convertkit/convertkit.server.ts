@@ -61,9 +61,9 @@ async function ensureSubscriber({
 		subscriber = await addSubscriberToForm({
 			email,
 			firstName,
-			convertKitFormId: '2500372',
+			convertKitFormId: '6874509',
 		})
-	}
+	}1
 
 	return subscriber
 }
@@ -141,8 +141,8 @@ async function tagKCDSiteSubscriber({
 	fields: Record<string, string>
 }) {
 	const subscriber = await getConvertKitSubscriber(email)
-	const kcdTagId = '2466369'
-	const kcdSiteForm = '2393887'
+	const kcdTagId = '5221771'
+	const kcdSiteForm = '6874981'
 	const subscriberData = {
 		api_key: CONVERT_KIT_API_KEY,
 		api_secret: CONVERT_KIT_API_SECRET,
