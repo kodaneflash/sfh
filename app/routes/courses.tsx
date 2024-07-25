@@ -65,8 +65,8 @@ function CoursesHome() {
 	return (
 		<>
 			<HeroSection
-				title="Level up as a developer."
-				subtitle="Invest in yourself with a premium dev course."
+				title="Level up as an solo entrepreneur."
+				subtitle="Invest in yourself with our premium entrepreneurship courses."
 				imageBuilder={images.onewheel}
 			/>
 

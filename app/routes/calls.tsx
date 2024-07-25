@@ -166,8 +166,8 @@ export default function CallHomeScreen() {
 	return (
 		<>
 			<HeroSection
-				title="Calls with Kent C. Dodds."
-				subtitle="You call, I'll answer."
+				title="Calls with SoloFoundersHub."
+				subtitle="You call, we'll answer."
 				imageBuilder={images.microphone}
 				arrowUrl="#episodes"
 				arrowLabel="Take a listen"

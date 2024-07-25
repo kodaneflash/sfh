@@ -59,7 +59,7 @@ function AboutSection() {
 					className="mt-14"
 					prefetch="intent"
 				>
-					Learn more about me
+					Learn more about SoloFoundersHub
 				</ArrowLink>
 			</div>
 		</Grid>

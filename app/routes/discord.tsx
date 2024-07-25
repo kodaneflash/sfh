@@ -174,10 +174,10 @@ export default function Discord() {
 				title={
 					<>
 						<DiscordLogo />
-						{`Make friends on our discord server.`}
+						{`Connect with fellow entrepreneurs on our Discord server.`}
 					</>
 				}
-				subtitle="Learn to become better developers together."
+				subtitle="Learn, share, and grow your online business together."
 				imageBuilder={images.helmet}
 				arrowUrl="#reasons-to-join"
 				arrowLabel="Is this something for me?"
