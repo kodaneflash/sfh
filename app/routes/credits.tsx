@@ -171,7 +171,7 @@ function CreditsIndex() {
 				<div className="col-span-full mb-8 lg:col-span-8 lg:mb-20">
 					<H2 className="mb-8">
 						{`
-              kentcdodds.com is more than just my developer portfolio. It's a
+              solo.com is more than just my developer portfolio. It's a
               place for me to share my thoughts, ideas, and experiences as
               well as the thoughts, ideas, and experiences of others (yourself
               included). It's a full fleged–`}
