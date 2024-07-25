@@ -72,7 +72,7 @@ export async function action({ request }: ActionFunctionArgs) {
 
 			await sendEmail({
 				from: sender,
-				to: `"Kent C. Dodds" <me@solofounderhub.com>`,
+				to: `"SoloFoundersHub" <mailgun@mg.solofounderhub.com>`,
 				subject,
 				text: `${body}\n\n${noSpamMessage}`,
 			})

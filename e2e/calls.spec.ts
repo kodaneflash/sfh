@@ -69,5 +69,5 @@ test('Call Kent recording flow', async ({ page, login }) => {
 	invariant(email, 'Notification email not found')
 	expect(email.subject).toMatch(/published/i)
 	// NOTE: domain is hard coded for image generation and stuff
-	expect(email.text).toContain('https://kentcdodds.com/calls')
+	expect(email.text).toContain('https://solofoundershub.com/calls')
 })

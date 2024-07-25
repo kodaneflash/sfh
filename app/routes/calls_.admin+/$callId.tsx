@@ -114,7 +114,7 @@ export async function action({ request, params }: ActionFunctionArgs) {
 			try {
 				void sendEmail({
 					to: call.user.email,
-					from: `"Kent C. Dodds" <hello+calls@solofounderhub.com>`,
+					from: `"Kent C. Dodds" <mailgun@mg.solofounderhub.com>`,
 					subject: `Your "Call SoloFoundersHub" episode has been published`,
 					text: `
 Hi ${call.user.firstName},

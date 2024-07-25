@@ -8,7 +8,7 @@ test('Users can send an email', async ({ page, login }) => {
 
 	await page
 		.getByRole('contentinfo')
-		.getByRole('link', { name: 'Email Kent' })
+		.getByRole('link', { name: 'Email SoloFoundersHub' })
 		.click()
 
 	await expect(page).toHaveURL(/.*contact/)
@@ -37,11 +37,11 @@ ${bodyLorem}
 	await mainContent.getByRole('textbox', { name: /body/i }).fill(body)
 	await mainContent.getByRole('button', { name: /send/i }).click()
 	await expect(page.getByText(/email sent/i)).toBeVisible()
-	const email = await readEmail((em) => em.to.includes('me@kentcdodds.com'))
+	const email = await readEmail((em) => em.to.includes('mailgun@mg.solofounderhub.com'))
 	invariant(email, 'Email not found')
 	expect(email.from).toMatch(user.email)
 	expect(email.subject).toMatch(subject)
 	expect(email.text).toMatch(bodyLorem)
-	expect(email.text).toMatch('- Sent via the KCD Contact Form')
+	expect(email.text).toMatch('- Sent via the SFH Contact Form')
 	expect(email.html).toMatch(`<strong>supports markdown</strong>`)
 })

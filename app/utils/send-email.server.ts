@@ -62,7 +62,7 @@ async function sendMagicLinkEmail({
 	user?: User | null
 	domainUrl: string
 }) {
-	const sender = `"SoloFoundersHub Team" <team+sfh@solofounderhub.com>`
+	const sender = `"SoloFoundersHub Team" <mailgun@mg.solofounderhub.co>`
 	const { hostname } = new URL(domainUrl)
 	const userExists = Boolean(user)
 
@@ -80,7 +80,7 @@ ${
 		? `Welcome back ${emailAddress}!`
 		: `
 Clicking the link above will create a *new* account on ${hostname} with the email ${emailAddress}. Welcome!
-If you'd instead like to change your email address for an existing account, please send an email to team+email-change@solofounderhub.com from the original email address.
+If you'd instead like to change your email address for an existing account, please send an email to team+email-mailgun@mg.solofounderhub.com from the original email address.
       `.trim()
 }
 
