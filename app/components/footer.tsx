@@ -31,7 +31,7 @@ function NewsletterSection() {
 			</div>
 
 			<div className="mt-8">
-				<ConvertKitForm formId="newsletter" convertKitFormId="827139" />
+				<ConvertKitForm formId="newsletter" convertKitFormId="6877879" />
 			</div>
 		</div>
 	)

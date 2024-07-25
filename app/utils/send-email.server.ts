@@ -17,7 +17,8 @@ if (process.env.MAILGUN_SENDING_KEY) {
 }
 
 type MailgunMessage = {
-	to: string
+	to: 
+	
 	from: string
 	subject: string
 	text: string
