@@ -71,9 +71,9 @@ export const meta: MetaFunction<typeof loader, { root: RootLoaderType }> = ({
 }) => {
 	const requestInfo = matches.find((m) => m.id === 'root')?.data.requestInfo
 	return getSocialMetas({
-		title: 'About Kent C. Dodds',
-		description: 'Get to know Kent C. Dodds',
-		keywords: 'about, kent, kent c. dodds, kent dodds',
+		title: 'About SoloFoundersHub',
+		description: 'Get to know SoloFoundersHub',
+		keywords: 'about, solo, solo founders, solo founders hub',
 		url: getUrl(requestInfo),
 		image: getSocialImageWithPreTitle({
 			url: getDisplayUrl(requestInfo),
