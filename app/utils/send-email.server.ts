@@ -17,13 +17,13 @@ if (process.env.MAILGUN_SENDING_KEY) {
 }
 
 type MailgunMessage = {
-	to: 
-	
+	to: string
 	from: string
 	subject: string
 	text: string
 	html?: string | null
 }
+
 
 async function sendEmail({ to, from, subject, text, html }: MailgunMessage) {
 	const auth = `${Buffer.from(`api:${mailgunSendingKey}`).toString('base64')}`
