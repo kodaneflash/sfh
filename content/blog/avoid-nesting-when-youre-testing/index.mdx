@@ -411,7 +411,7 @@ test('shows an error message when submit is clicked and no username is provided'
 	expect(handleSubmit).not.toHaveBeenCalled()
 })
 
-test('shows an error message when password is not provided', () => {
+test('shws an error message when password is not provided', () => {
 	const { handleSubmit, errorMessage } = setupWithNoPassword()
 	expect(errorMessage).toHaveTextContent(/password is required/i)
 	expect(handleSubmit).not.toHaveBeenCalled()
