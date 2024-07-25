@@ -62,7 +62,7 @@ async function sendMagicLinkEmail({
 	user?: User | null
 	domainUrl: string
 }) {
-	const sender = `"SoloFoundersHub Team" <mailgun@mg.solofounderhub.co>`
+	const sender = `"SoloFoundersHub Team" <mailgun@mg.solofounderhub.com>`
 	const { hostname } = new URL(domainUrl)
 	const userExists = Boolean(user)
 
