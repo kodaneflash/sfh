@@ -29,13 +29,13 @@ test('A new user can create an account', async ({ page }) => {
 		.getByRole('banner')
 		.getByRole('textbox', { name: /email/i })
 		.press('Enter')
-	await expect(page.getByText(/magic link has been sent/i)).toBeVisible()
+	await expect(page.getByText(/k has been sent/i)).toBeVisible()
 
 	// read and verify the email
 	const email = await readEmail(emailAddress)
 	invariant(email, 'Email not found')
 	expect(email.to).toBe(emailAddress)
-	expect(email.from).toMatch(/team\+kcd@kentcdodds.com/)
+	expect(email.from).toMatch(/mailgun@mg.solofounderhub.com/)
 	expect(email.subject).toMatch(/magic/i)
 	const magicLink = extractUrl(email.text)
 	invariant(magicLink, 'Magic Link not found')

@@ -242,7 +242,7 @@ function YouScreen() {
 	const [deleteModalOpen, setDeleteModalOpen] = React.useState(false)
 
 	React.useEffect(() => {
-		if (!IsVisible) return
+		if (!qrIsVisible) return
 
 		const timeout = setTimeout(() => {
 			setQrIsVisible(false)
