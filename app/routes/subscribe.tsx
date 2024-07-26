@@ -24,13 +24,13 @@ export const meta: MetaFunction<typeof loader, { root: RootLoaderType }> = ({
 }) => {
 	const requestInfo = matches.find((m) => m.id === 'root')?.data.requestInfo
 	return getSocialMetas({
-		title: `Subscribe to the KCD Mailing List`,
-		description: `Get weekly insights, ideas, and proven coding practices from the KCD Mailing List`,
+		title: `Subscribe to the SoloFoundersHub Mailing List`,
+		description: `Get weekly insights, curated startup ideas, and proven online business strategies from the SoloFoundersHub Mailing List`,
 		url: getUrl(requestInfo),
 		image: getGenericSocialImage({
 			url: getDisplayUrl(requestInfo),
 			featuredImage: images.snowboard(),
-			words: `Subscribe to the KCD Mailing List`,
+			words: `Subscribe to the SoloFoundersHub Mailing List`,
 		}),
 	})
 }

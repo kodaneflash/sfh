@@ -98,11 +98,11 @@ function AboutIndex() {
 	return (
 		<>
 			<HeroSection
-				title="Hi, I'm James Archer, the founder of SoloFoundersHub."
-				subtitle="We offer resources for solo entrepreneurs, including comprehensive courses, useful tools, insightful blogs, and curated startup ideas, to help you succeed in starting and growing a successful online business."
+				title="Hi, I'm James Archer. I founded SoloFoundersHub to help people build and scale online businesses."
+				subtitle="We offer an engaging community of entrepeneurs that share the same goal, comprehensive courses created by successful founders, insightful blogs, software and tools designed to help you grow and scale, and much more."
 				imageBuilder={images.snowboard}
 				arrowUrl="#about-me"
-				arrowLabel="Get to know more about SoloFoundersHub"
+				arrowLabel="Get to know more about SoloFoundersHub" 
 			/>
 
 			<Grid as="main" className="mb-24 mt-16 lg:mb-48">

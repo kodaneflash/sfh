@@ -2,8 +2,8 @@ import { getGenericSocialImage, images } from '#app/images.tsx'
 
 export function getSocialMetas({
 	url,
-	title = 'Helping people make the world a better place through quality software',
-	description = 'Make the world better with software',
+	title = 'Empowering solo entrepreneurs to build and scale successful online businesses',
+	description = 'Join our community and access insightful blogs, comprehensive courses, useful tools, resources, and curated startup ideas for solo entrepreneurs to build and scale successful online businesses',
 	image = getGenericSocialImage({
 		url,
 		words: title,

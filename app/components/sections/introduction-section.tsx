@@ -53,11 +53,11 @@ function IntroductionSection() {
 			</div>
 			<div className="col-span-full mt-12 lg:col-span-6 lg:col-start-6 lg:mt-0">
 				<H2 id="intro">
-					{`At SoloFoundersHub, we're at the center of an emerging community of solo entrepreneurs making money online with successful online businesses.`}
+					{`There is an emerging community of solo entrepreneurs making money online with successful online businesses.`}
 				</H2>
 				<H3 variant="secondary" as="p" className="mt-12">
 					{`
-            Your ultimate hub, offering a vibrant community, premium courses, insightful blogs, essential tools, resources and expert content to guide you every step of the way. Join us to network with other entrepenurs, learn, and grow your successful online business.
+            SoloFoundersHub is a vibrant community to network with other entrepreneurs, exchange ideas and share experiences. Our platform has premium courses created by successful founders, insightful blogs packed with essential information to enhance your skills and knowledge, and essential tools and software designed to help you create and scale your online business.
           `}
 				</H3>
 				<ArrowLink

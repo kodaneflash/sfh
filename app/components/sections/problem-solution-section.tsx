@@ -106,14 +106,13 @@ function ProblemSolutionSection({
 		<Tabs as={Grid} featured onChange={(index) => setActiveTabIndex(index)}>
 			<div className="col-span-full lg:col-span-5">
 				<H2 className="mb-4 lg:mb-0">
-					Having a hard time keeping up with JavaScript?
+				Struggling to start an online business and keep up with all the latest trends and startup ideas?
 				</H2>
 			</div>
 			<div className="col-span-full lg:col-span-5 lg:col-start-7">
 				<H2 variant="secondary" as="p">
 					{`
-            Well, you're in the right place. My website is your one stop shop
-            for everything you need to build JavaScript apps.
+           Well, you're in the right place. We are a all-in-one platform, offering an engaging community, tools to help you scale, comprehensive courses, and essential resources to launch and grow a successful online business.
           `}
 				</H2>
 			</div>
@@ -141,23 +140,23 @@ function ProblemSolutionSection({
 						</Link>
 						{` ${totalBlogReads} times by ${totalBlogReaders} people. There you'll find blogs about `}
 						<Link prefetch="intent" to="/blog?q=javascript">
-							JavaScript
+							Startup ideas
 						</Link>
 						{`, `}
 						<Link prefetch="intent" to="/blog?q=typescript">
-							TypeScript
+							Business, Marketing and SEO strategies
 						</Link>
 						{`, `}
 						<Link prefetch="intent" to="/blog?q=react">
-							React
+							Scaling your online business
 						</Link>
 						{`, `}
 						<Link prefetch="intent" to="/blog?q=testing">
-							Testing
+							Case studies of successul founders
 						</Link>
 						{`, `}
 						<Link prefetch="intent" to="/blog?q=career">
-							your career
+							Growth hacking
 						</Link>
 						{`, `}
 						<Link prefetch="intent" to="/blog">

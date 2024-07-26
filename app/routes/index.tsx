@@ -87,7 +87,7 @@ export default function IndexRoute() {
 	return (
 		<div>
 			<HeroSection
-				title="Empowering solo entrepreneurs to build successful online businesses."
+				title="Empowering solo entrepreneurs to build and scale successful online businesses."
 				imageBuilder={kodyFlying}
 				imageSize="giant"
 				arrowUrl="#intro"
