@@ -3,7 +3,7 @@ import { getGenericSocialImage, images } from '#app/images.tsx'
 export function getSocialMetas({
 	url,
 	title = 'Empowering solo entrepreneurs to build and scale successful online businesses',
-	description = 'Join our community and access insightful blogs, comprehensive courses, useful tools, resources, and curated startup ideas for solo entrepreneurs to build and scale successful online businesses',
+	description = 'Join our community and access insightful blogs, comprehensive courses, useful tools to help scale, resources, and curated startup ideas to build and scale successful online businesses',
 	image = getGenericSocialImage({
 		url,
 		words: title,
