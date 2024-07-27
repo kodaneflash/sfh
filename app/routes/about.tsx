@@ -99,7 +99,7 @@ function AboutIndex() {
 		<>
 			<HeroSection
 				title="Hi, I'm James Archer. I've founded 8 software companies, with 6 being acquired, including one sold for $5.6 million."
-				subtitle="We offer an engaging community of entrepeneurs that share the same goal, comprehensive courses created by successful founders, insightful blogs, software and tools designed to help you grow and scale, and much more."
+				subtitle="I founded SoloFoundersHub to provide aspiring entrepeneurs with a community that shares the same goal, offering comprehensive courses created by successful founders, insightful blogs, software and tools designed to help you grow and scale, and more."
 				imageBuilder={images.snowboard}
 				arrowUrl="#about-me"
 				arrowLabel="Get to know more about SoloFoundersHub" 
