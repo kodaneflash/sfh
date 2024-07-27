@@ -90,7 +90,7 @@ function AboutSection() {
 			<H4 as="div">Solo Founders Hub</H4>
 
 			<p className="text-secondary mt-6 max-w-md text-2xl">
-				Full time educator making our world better
+				Empowering solo entrepreneurs to build and scale successful online businesses.
 			</p>
 
 			<div className="text-secondary mt-6 flex items-center justify-between gap-4 xl:flex-col xl:items-start">
