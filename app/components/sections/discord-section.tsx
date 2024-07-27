@@ -58,7 +58,7 @@ function DiscordSection() {
 					style={{ color: '#006ece' }}
 				>
 					<div className="self-start rounded-full bg-blue-100 px-12 py-6 text-lg">
-						{`Want to learn react together?`}
+						{`Want to start a business together?`}
 					</div>
 					<div className="self-start rounded-full bg-blue-100 px-12 py-6 text-lg">
 						{`Let me know `}
