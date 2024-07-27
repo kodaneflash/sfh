@@ -85,7 +85,7 @@ export const meta: MetaFunction<typeof loader, { root: RootLoaderType }> = ({
 
 	const requestInfo = matches.find((m) => m.id === 'root')?.data.requestInfo
 	if (!episode) {
-		return [{ title: 'Chats with Kent Episode not found' }]
+		return [{ title: 'Chats with SoloFoundersHub Episode not found' }]
 	}
 	const {
 		description,
@@ -95,13 +95,13 @@ export const meta: MetaFunction<typeof loader, { root: RootLoaderType }> = ({
 		episodeNumber,
 		seasonNumber,
 	} = episode
-	const title = `${episode.title} | Chats with James Podcast | ${episodeNumber}`
+	const title = `${episode.title} | Chats with SoloFoundersHub Podcast | ${episodeNumber}`
 	const playerUrl = `https://player.simplecast.com/${simpleCastId}`
 	return [
 		...getSocialMetas({
 			title,
 			description,
-			keywords: `chats with kent, kent c. dodds, ${
+			keywords: `chats with solo founders hub, solo founders hub, ${
 				episode.meta?.keywords ?? ''
 			}`,
 			url: getUrl(requestInfo),

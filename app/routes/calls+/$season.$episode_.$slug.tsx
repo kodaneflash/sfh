@@ -63,13 +63,13 @@ export const meta: MetaFunction<
 		)
 		return [{ title: 'Call not found' }]
 	}
-	const title = `${episode.title} | Call Kent Podcast | ${episode.episodeNumber}`
+	const title = `${episode.title} | Call SoloFoundersHub Podcast | ${episode.episodeNumber}`
 	const playerUrl = episode.embedHtml.match(/src="(?<src>.+)"/)?.groups?.src
 	return [
 		...getSocialMetas({
 			title,
 			description: episode.description,
-			keywords: `call kent, kent c. dodds, ${episode.keywords}`,
+			keywords: `call solo founders hub, solo founders hub, ${episode.keywords}`,
 			url: getUrl(requestInfo),
 			image: episode.imageUrl,
 		}),
@@ -160,7 +160,7 @@ export default function Screen() {
 						rel="noreferrer noopener"
 						href={`https://x.com/intent/tweet?${new URLSearchParams({
 							url: `${requestInfo.origin}${path}`,
-							text: `I just listened to "${episode.title}" on the Chats with Kent Podcast 🎙 by @kentcdodds`,
+							text: `I just listened to "${episode.title}" on the Chats with SoloFoundersHub Podcast 🎙 by @solofoundershub`,
 						})}`}
 					>
 						<XIcon title="Post this" />

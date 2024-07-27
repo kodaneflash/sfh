@@ -100,9 +100,9 @@ export const meta: MetaFunction<typeof loader, { root: RootLoaderType }> = ({
 }) => {
 	const requestInfo = matches.find((m) => m.id === 'root')?.data.requestInfo
 	return getSocialMetas({
-		title: 'Call Kent Podcast',
-		description: `Leave Kent an audio message here, then your message and Kent's response are published in the podcast.`,
-		keywords: 'podcast, call kent, call kent c. dodds, the call kent podcast',
+		title: 'Call SoloFoundersHub Podcast',
+		description: `Leave us an audio message here, then your message and our response are published in the podcast.`,
+		keywords: 'podcast, call solo founders hub, call solo founders, the call solo founders hub podcast',
 		url: getUrl(requestInfo),
 		image: getGenericSocialImage({
 			words: 'Listen to the Call Kent Podcast and make your own call.',
