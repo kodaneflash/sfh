@@ -601,7 +601,7 @@ export function ErrorBoundary() {
 					<ErrorPage
 						heroProps={{
 							title: "404 - Oh no, you found a page that's missing stuff.",
-							subtitle: `"${location.pathname}" is not a page on kentcdodds.com. So sorry.`,
+							subtitle: `"${location.pathname}" is not a page on solofoundershu.com. So sorry.`,
 							image: (
 								<MissingSomething className="rounded-lg" aspectRatio="3:4" />
 							),
@@ -673,7 +673,7 @@ function kcdLiveReloadConnect(config?: { onOpen: () => void }) {
 	ws.onmessage = (message) => {
 		const event = JSON.parse(message.data)
 		if (
-			event.type === 'kentcdodds.com:file-change' &&
+			event.type === 'sfh:file-change' &&
 			event.data.relativePath === location.pathname
 		) {
 			window.location.reload()
