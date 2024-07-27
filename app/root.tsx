@@ -475,7 +475,7 @@ function App() {
 							<p className="flex items-center gap-1">
 								<LaptopIcon />
 								<span>
-									Join Kent for an interactive{' '}
+									Join James for an interactive{' '}
 									<Link to="/workshops" className="underline">
 										live workshop
 									</Link>

@@ -523,7 +523,7 @@ export default function MdxScreen() {
 				<>
 					<HeaderSection
 						title="Want to learn more?"
-						subTitle="Join Kent in a live workshop"
+						subTitle="Join James in a live workshop"
 					/>
 					<Spacer size="2xs" />
 
