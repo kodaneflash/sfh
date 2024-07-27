@@ -40,16 +40,16 @@ function AboutSection() {
 					})}
 				/>
 
-				<H2 className="mt-12">{`Big extreme sports enthusiast.`}</H2>
+				<H2 className="mt-12">{`Sit sint nostrud ipsum consectetur.`}</H2>
 				<H2 className="mt-2" variant="secondary" as="p">
-					{`With a big heart for helping people.`}
+					{`Incididunt ad in eiusmod exercitation.`}
 				</H2>
 
 				<Paragraph className="mt-8">
 					{`
-            I'm a JavaScript engineer and teacher and I'm active in the open
-            source community. And I'm also a husband, father, and an extreme
-            sports and sustainability enthusiast.
+            Incididunt non nisi aute Lorem veniam minim eu mollit non.
+            Nisi cillum enim est dolor tempor anim non nostrud anim nisi, 
+			irure deserunt culpa laboris ullamco.
           `}
 				</Paragraph>
 

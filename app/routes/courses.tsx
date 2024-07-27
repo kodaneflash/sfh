@@ -76,29 +76,26 @@ function CoursesHome() {
 				</div>
 				<div className="col-span-full mb-8 lg:col-span-4 lg:mb-20">
 					<H6 as="h3" className="mb-4">
-						{`Become a more confident developer`}
+						{`Excepteur aliqua nostrud et ut irure ad.`}
 					</H6>
 					<Paragraph className="mb-20">
 						{`
-              All of us are familiar with the feeling of stumbling around
-              between YouTube videos, blog posts, and documentation just
-              copy/pasting code and hoping it'll work. It's frustrating and
-              unproductive. With these courses, you'll have the confidence you
-              need to skip all that stumbling and start shipping. Coding is
+              AIrure cillum fugiat elit culpa exercitation. Incididunt elit nisi proident do aliqua. Fugiat exercitation laboris Lorem esse Lorem labore.
+			Irure pariatur occaecat tempor consectetur ipsum veniam et esse. Sit reprehenderit ullamco ex in aute.
+              
             `}
 						<strong>more fun</strong>
-						{` this way, trust me 🥳`}
+						{` excepteur, duis. `}
 					</Paragraph>
 					<H6 as="h3" className="mb-4">
-						{`Earn more money as a developer`}
+						{`Do irure deserunt magna  ea aute nulla.`}
 					</H6>
 					<Paragraph>
 						{`
-              The more skilled you are, the more you can get done and the more
-              value you can provide to your employer and clients. If you don't
-              think that comes with a bump in pay, ask the thousands of other
-              devs who have experienced exactly this as a result of what they
-              learned in these courses. Get that money 🤑
+              Sit aliquip sit dolore eiusmod. Est do excepteur pariatur minim enim reprehenderit 
+			  proident aute. Eiusmod reprehenderit non Lorem quis. Irure sit do proident.
+			  Veniam mollit qui officia tempor dolore aliqua esse ad.
+			  Aliquip Lorem laboris excepteur ipsum eiusmod ea elit eu fugiat fugiat duis et aute Lorem amet.
             `}
 					</Paragraph>
 				</div>
@@ -114,8 +111,8 @@ function CoursesHome() {
 			<Grid className="gap-y-4">
 				<div className="col-span-full">
 					<CourseCard
-						title="Epic Web"
-						description="The best way to learn how to build Epic, full stack web applications you'll love to work on and your users will love to use."
+						title="Non cillum"
+						description="Aute magna id magna voluptate labore id consequat."
 						// this swap is intentional. The dark looks nicer on light and vice versa
 						darkImageBuilder={images.courseEpicWebLight}
 						lightImageBuilder={images.courseEpicWebDark}
@@ -124,8 +121,8 @@ function CoursesHome() {
 				</div>
 				<div className="col-span-full lg:col-span-6">
 					<CourseCard
-						title="Epic React"
-						description="The most comprehensive guide for pros."
+						title="Adipisicing cupidatat"
+						description="Amet aliqua voluptate duis eiusmod non consequat."
 						imageBuilder={images.courseEpicReact}
 						courseUrl="https://epicreact.dev"
 					/>
@@ -133,8 +130,8 @@ function CoursesHome() {
 
 				<div className="col-span-full mt-12 lg:col-span-6 lg:mt-0">
 					<CourseCard
-						title="Testing JavaScript"
-						description="Learn smart, efficient testing methods."
+						title="Proident aliqua"
+						description="Ut elit aliqua velit est ex deserunt."
 						imageBuilder={images.courseTestingJS}
 						courseUrl="https://testingjavascript.com"
 					/>

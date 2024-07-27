@@ -25,7 +25,7 @@ function DiscordSection() {
 					className="mt-20"
 					prefetch="intent"
 				>
-					Learn more about the Epic Web Community on Discord
+					Learn more about the SoloFoundersHub Commuity on Discord
 				</ArrowLink>
 			</div>
 

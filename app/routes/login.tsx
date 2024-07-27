@@ -264,7 +264,7 @@ function Login() {
 						target="_blank"
 						rel="noreferrer noopener"
 					>
-						TestingJavaScript.com
+						Siteone.com
 					</a>
 					{`, `}
 					<a
@@ -273,7 +273,7 @@ function Login() {
 						target="_blank"
 						rel="noreferrer noopener"
 					>
-						EpicReact.dev
+						Sitetwo.dev
 					</a>
 					{`, and `}
 					<a
@@ -282,11 +282,11 @@ function Login() {
 						target="_blank"
 						rel="noreferrer noopener"
 					>
-						EpicWeb.dev
+						Sitethree.dev
 					</a>
 					{`
             accounts, but I recommend you use the same email address for all of
-            them because they all feed into my mailing list.
+            them because they all feed into our mailing list.
           `}
 				</Paragraph>
 			</Grid>

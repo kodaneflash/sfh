@@ -16,8 +16,8 @@ function CourseSection() {
 			<Grid>
 				<div className="col-span-full">
 					<CourseCard
-						title="Epic Web"
-						description="Become a full stack web dev."
+						title="Course one"
+						description="Occaecat eiusmod Loremx."
 						// this swap is intentional. The dark looks nicer on light and vice versa
 						darkImageBuilder={images.courseEpicWebLight}
 						lightImageBuilder={images.courseEpicWebDark}
@@ -26,8 +26,8 @@ function CourseSection() {
 				</div>
 				<div className="col-span-full lg:col-span-6">
 					<CourseCard
-						title="Epic React"
-						description="The most comprehensive guide for pros."
+						title="Course two"
+						description="Occaecat eiusmod Loremx."
 						imageBuilder={images.courseEpicReact}
 						courseUrl="https://epicreact.dev"
 					/>
@@ -35,8 +35,8 @@ function CourseSection() {
 
 				<div className="col-span-full mt-12 lg:col-span-6 lg:mt-0">
 					<CourseCard
-						title="Testing JavaScript"
-						description="Learn smart, efficient testing methods."
+						title="Course three"
+						description="Occaecat eiusmod Loremx."
 						imageBuilder={images.courseTestingJS}
 						courseUrl="https://testingjavascript.com"
 					/>
