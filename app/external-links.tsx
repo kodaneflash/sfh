@@ -15,7 +15,7 @@ const externalLinks = {
 	github: 'https://github.com/solofoundershub.com',
 	youtube: 'https://youtube.com/c/KentCDodds-vids/videos',
 	twitter: 'https://twitter.com/kentcdodds',
-	rss: 'https://kentcdodds.com/blog/rss.xml',
+	rss: 'https://solofoundershub.com/blog/rss.xml',
 }
 
 export { externalLinks }
