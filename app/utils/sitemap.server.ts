@@ -72,7 +72,7 @@ async function getSitemapXml(request: Request, remixContext: EntryContext) {
 		.flatMap((z) => z)
 		.filter(typedBoolean)
 
-	const sitemapEntries: Array<KCDSitemapEntry> = []
+	const Entries: Array<KCDSitemapEntry> = []
 	for (const entry of rawSitemapEntries) {
 		const existingEntryForRoute = sitemapEntries.find(
 			(e) => e.route === entry.route,
