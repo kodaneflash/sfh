@@ -673,7 +673,7 @@ function kcdLiveReloadConnect(config?: { onOpen: () => void }) {
 	ws.onmessage = (message) => {
 		const event = JSON.parse(message.data)
 		if (
-			event.type === 'sfh:file-change' &&
+			event.type === 'solofoundershub.com:file-change' &&
 			event.data.relativePath === location.pathname
 		) {
 			window.location.reload()
