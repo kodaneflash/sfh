@@ -87,7 +87,7 @@ export const meta: MetaFunction<typeof loader> = ({ data }) => {
 		},
 		...getSocialMetas({
 			keywords:
-				'Learn React, React Workshops, Testing JavaScript Training, React Training, Learn JavaScript, Learn TypeScript',
+				'Learn , React Workshops, Testing JavaScript Training, React Training, Learn JavaScript, Learn TypeScript',
 			url: getUrl(requestInfo),
 			image: getGenericSocialImage({
 				url: getDisplayUrl(requestInfo),
