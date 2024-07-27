@@ -135,7 +135,7 @@ function PodcastHome() {
 	return (
 		<>
 			<HeroSection
-				title="Listen to chats with Kent C. Dodds here."
+				title="Listen to chats with SoloFoundersHub here."
 				subtitle="Find all episodes of my podcast below."
 				imageBuilder={images.kayak}
 				imageSize="large"
