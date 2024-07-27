@@ -13,7 +13,7 @@ const externalLinks = {
 	translationContributions:
 		'https://github.com/kentcdodds/kentcdodds.com/blob/main/CONTRIBUTING.md#translation-contributions',
 	github: 'https://github.com/solofoundershub.com',
-	youtube: 'https://youtube.com/c/KentCDodds-vids/videos',
+	youtube: 'https://youtube.com/c/solofoundershub-vids/videos',
 	twitter: 'https://twitter.com/kentcdodds',
 	rss: 'https://solofoundershub.com/blog/rss.xml',
 }
