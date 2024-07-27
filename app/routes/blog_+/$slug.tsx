@@ -297,15 +297,15 @@ function ArticleFooter({
 				/>
 			</div>
 			<div className="lg:col-start:5 col-span-full lg:col-span-6">
-				<H6 as="div">Written by Kent C. Dodds</H6>
+				<H6 as="div">Written by James Archer</H6>
 				<Paragraph className="mb-12 mt-3">
 					{`
-Kent C. Dodds is a JavaScript software engineer and teacher. Kent's taught hundreds
-of thousands of people how to make the world a better place with quality software
-development tools and practices. He lives with his wife and four kids in Utah.
+James is a serial entrepreneur, leader, and strategist. James is an expert in growth hacking, operational management, brand strategy,
+ geostrategy, technical and business architecture, and product design & development. He has taught hundreds of thousands of people how to scale their
+online businesses and products. He lives in Miami, Florida.
           `.trim()}
 				</Paragraph>
-				<ArrowLink to="/about">Learn more about Kent</ArrowLink>
+				<ArrowLink to="/about">Learn more about James</ArrowLink>
 			</div>
 		</Grid>
 	)
