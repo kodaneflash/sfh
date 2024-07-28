@@ -57,7 +57,7 @@ function IntroductionSection() {
 				</H2>
 				<H3 variant="secondary" as="p" className="mt-12">
 					{`
-            SoloFoundersHub is a community of solo entrepreneurs to exchange ideas, share experiences and network. Our platform has comprehensive courses created by successful founders, blogs packed with vital information to enhance your skills and knowledge, and specially designed tools to help you create and scale your online business.
+            SoloFoundersHub is a community of solo entrepreneurs to exchange ideas, share experiences  and network. Our platform has comprehensive courses created by successful founders, blogs packed with vital information to enhance your skills and knowledge, and specially designed tools to help you create and scale your online business.
           `}
 				</H3>
 				<ArrowLink
