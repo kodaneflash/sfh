@@ -10,7 +10,7 @@ async function main() {
 		create: {
 			email: `jamesonmarcher@gmail.com`,
 			firstName: 'James',
-			team: 'BLUE',
+			team: 'YELLOW',
 			role: 'ADMIN',
 		},
 	})
