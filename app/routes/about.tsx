@@ -155,14 +155,11 @@ function AboutIndex() {
 				</div>
 				<div className="col-span-full mb-8 lg:col-span-8 lg:mb-20">
 					<H2 as="p" className="mb-8">
-						{`I was born in 1988 in Twin Falls, Idaho.`}
+						{`Fugiat tempor laborum nulla culpa non occaecat esse irure id veniam ullamco.`}
 					</H2>
 					<H2 className="mb-12" variant="secondary" as="p">
 						{`
-              After graduating High School and serving a 2 year mission in the
-              Missouri Independence Mission for The Church of Jesus Christ of
-              Latter-day Saints, I went to BYU where I graduated with a Master
-              of Science in Information Systems degree in 2014.
+              Adipisicing in deserunt commodo sunt. Exercitation labore qui id dolor. Eu exercitation reprehenderit anim commodo qui sit amet.
             `}
 					</H2>
 
@@ -187,28 +184,12 @@ function AboutIndex() {
 
 				<Paragraph className="lg:mb:0 col-span-full mb-4 lg:col-span-4 lg:col-start-5 lg:mr-12">
 					{`
-            Early on in my career I decided I wanted to be an expert in
-            JavaScript. So I set my mind on mastering the world's most popular
-            programming language. I spent countless hours writing JavaScript
-            for the companies I worked for as well as in the evenings for open
-            source and other side projects. Eventually I even represented PayPal
-            on the TC-39 (the committee responsible for standardizing the
-            JavaScript language). I feel like I achieved my goal of becoming an
-            expert in JavaScript, but I do need to keep up just like everyone
-            else, which is an enjoyable challenge.
+            Mollit pariatur voluptate sit non occaecat fugiat adipisicing amet occaecat mollit pariatur nisi. Commodo laborum aliquip eu proident sint minim culpa commodo voluptate duis aliqua. Do quis in cupidatat cupidatat occaecat laboris culpa sint officia eiusmod eiusmod ullamco laboris proident consequat. Sit tempor elit voluptate irure id dolor esse.
           `}
 				</Paragraph>
 				<Paragraph className="col-span-full lg:col-span-4 lg:col-start-9 lg:mr-12">
 					{`
-            I've also always been excited about sharing what I know with others.
-            When I was in school, I signed up to be a tutor for my classmates
-            and once I even got Firebase to sponsor pizza for me to give an
-            informal workshop about Angular.js to my fellow students. I was a
-            speaker at the first meetup I ever attended, and I've now delivered
-            over a hundred talks on topics including JavaScript, React, Testing,
-            Careers, and more. One of my talks got noticed by egghead and I was
-            invited to turn that talk into an egghead course. The rest is
-            history!
+            Do adipisicing anim non cupidatat enim elit excepteur Lorem Lorem minim occaecat. Mollit laborum Lorem ullamco nisi dolore consequat veniam reprehenderit excepteur minim dolore excepteur sit. Et aliqua occaecat quis excepteur sunt anim. Commodo nulla adipisicing reprehenderit. Quis dolore ad quis laboris duis elit aliqua ea.
           `}
 				</Paragraph>
 			</Grid>
@@ -238,43 +219,30 @@ function AboutIndex() {
 				</div>
 
 				<div className="col-span-full lg:col-span-5 lg:col-start-1 lg:row-start-1">
-					<H2 className="mb-10">Here are some of the values I live by.</H2>
+					<H2 className="mb-10">Voslupur nostruillum cillum velit reprehenderit fugiat..</H2>
 
 					<H6 as="h3" className="mb-4">
-						{`Kindness`}
+						{`commodo`}
 					</H6>
 					<Paragraph className="mb-12">
 						{`
-              You can be the smartest and most skilled software engineer in the
-              world, but if you're not kind to those with whom you interact,
-              you'll never reach your full potential and you'll always be
-              chasing the next thing to bring you happiness in life. Be kind.
+              Veniam reprehenderit mollit velit sint pariatur tempor. Reprehenderit non ea excepteur esse commodo et. Velit ex ea excepteur deserunt commodo elit et qui ad laboris eu cillum
             `}
 					</Paragraph>
 					<H6 as="h3" className="mb-4">
-						{`Share knowledge`}
+						{`veniam ex`}
 					</H6>
 					<Paragraph className="mb-12">
 						{`
-              One of the biggest things that has helped me learn is by
-              committing myself to sharing what I know with others. Between
-              podcasts, blog posts, talks, and workshops, I force myself into
-              situations where I have to be accountable to those I'm teaching
-              to really know my stuff. And as a result, a lot of people have
-              learned from me as well.
+             Incididunt incididunt consectetur quis adipisicing magna tempor voluptate non commodo est anim est dolor enim ex. Ipsum velit laborum commodo consectetur aliquip non ea. Anim do nisi non proident. Pariatur adipisicing dolor dolore aliqua minim nisi mollit nulla qui dolor esse aliquip dolor enim. Mollit aliqua fugiat aliqua aliquip cillum mollit.
             `}
 					</Paragraph>
 					<H6 as="h3" className="mb-4">
-						{`Collaborate with others`}
+						{`Nisi ut veniam eiusmod aute.`}
 					</H6>
 					<Paragraph className="mb-12">
 						{`
-              I've worked with a ton of developers in my role as a team member
-              at companies I've worked at as well as in the open source
-              community. I've found it to be invaluable to collaborate well with
-              others. I value giving credit where it is due and celebrating
-              the successes of others with them. We can accomplish much more
-              together than separately.
+              Irure commodo non Lorem ipsum dolore Lorem sunt in nulla in exercitation duis quis. Eu pariatur esse occaecat tempor in Lorem ipsum sunt aute velit amet commodo incididunt minim. Amet sint esse nostrud excepteur excepteur nulla deserunt Lorem. Sint voluptate duis et proident est tempor amet enim. Qui occaecat tempor non proident. Pariatur commodo aliqua ad minim voluptate culpa deserunt ullamco.
             `}
 					</Paragraph>
 				</div>
