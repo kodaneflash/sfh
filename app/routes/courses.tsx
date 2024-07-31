@@ -49,13 +49,13 @@ export const meta: MetaFunction<typeof loader, { root: RootLoaderType }> = ({
 }) => {
 	const requestInfo = matches.find((m) => m.id === 'root')?.data.requestInfo
 	return getSocialMetas({
-		title: 'Courses by Kent C. Dodds',
-		description: 'Get really good at making software with Kent C. Dodds',
+		title: 'Courses by SoloFoundersHub',
+		description: 'Learn the skills needed to start a successful online business with SoloFoundersHub',
 		url: getUrl(requestInfo),
 		image: getGenericSocialImage({
 			url: getDisplayUrl(requestInfo),
 			featuredImage: images.onewheel.id,
-			words: `Level up your skills with self-paced courses from Kent C. Dodds`,
+			words: `Level up your entrepreneurial skillset with self-paced courses from SoloFoundersHub`,
 		}),
 	})
 }
