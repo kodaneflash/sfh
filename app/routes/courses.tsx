@@ -55,7 +55,7 @@ export const meta: MetaFunction<typeof loader, { root: RootLoaderType }> = ({
 		image: getGenericSocialImage({
 			url: getDisplayUrl(requestInfo),
 			featuredImage: images.onewheel.id,
-			words: `Level up your entrepreneurial skillset with self-paced courses from SoloFoundersHub`,
+			words: `Empower your entrepreneurial journey with self-paced courses from SoloFoundersHub`,
 		}),
 	})
 }
