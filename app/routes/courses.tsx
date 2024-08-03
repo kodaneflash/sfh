@@ -76,26 +76,22 @@ function CoursesHome() {
 				</div>
 				<div className="col-span-full mb-8 lg:col-span-4 lg:mb-20">
 					<H6 as="h3" className="mb-4">
-						{`Excepteur aliqua nostrud et ut irure ad.`}
+						{`Provide yourself with the strategies, knowledge and skills you need to be successful`}
 					</H6>
 					<Paragraph className="mb-20">
 						{`
-              AIrure cillum fugiat elit culpa exercitation. Incididunt elit nisi proident do aliqua. Fugiat exercitation laboris Lorem esse Lorem labore.
-			Irure pariatur occaecat tempor consectetur ipsum veniam et esse. Sit reprehenderit ullamco ex in aute.
+              Every aspiring entrepreneur knows the frustration of piecing together disjointed advice from YouTube videos, blog posts, and random articles, and hoping it'll work. It's inefficient and discouraging. Our courses provide you with the structured guidance needed to bypass
               
             `}
-						<strong>more fun</strong>
-						{` excepteur, duis. `}
+						<strong>common pitfalls</strong>
+						{` and start implementing effective strategies proven by successful online founders. `}
 					</Paragraph>
 					<H6 as="h3" className="mb-4">
-						{`Do irure deserunt magna  ea aute nulla.`}
+						{`Achieve the financial freedom you've always dreamed of`}
 					</H6>
 					<Paragraph>
 						{`
-              Sit aliquip sit dolore eiusmod. Est do excepteur pariatur minim enim reprehenderit 
-			  proident aute. Eiusmod reprehenderit non Lorem quis. Irure sit do proident.
-			  Veniam mollit qui officia tempor dolore aliqua esse ad.
-			  Aliquip Lorem laboris excepteur ipsum eiusmod ea elit eu fugiat fugiat duis et aute Lorem amet.
+              Enroll in our distinctive courses that offers 1:1 education and all the knowledge you need to succeed. Explore the resources, business strategies and knowledge curated by successful online founders themselves. With our thorough guidance, you're not only getting ready for success; you're laying the groundwork for scalability and financial success. Shop our courses to turn your online business into reality
             `}
 					</Paragraph>
 				</div>
@@ -121,8 +117,8 @@ function CoursesHome() {
 				</div>
 				<div className="col-span-full lg:col-span-6">
 					<CourseCard
-						title="Adipisicing cupidatat"
-						description="Amet aliqua voluptate duis eiusmod non consequat."
+						title="Organic Growth Academy"
+						description="Learn how to drive organic growth in your business."
 						imageBuilder={images.courseEpicReact}
 						courseUrl="https://epicreact.dev"
 					/>
@@ -130,8 +126,8 @@ function CoursesHome() {
 
 				<div className="col-span-full mt-12 lg:col-span-6 lg:mt-0">
 					<CourseCard
-						title="Proident aliqua"
-						description="Ut elit aliqua velit est ex deserunt."
+						title="Micro SaaS Academy"
+						description="Your fast track to micro SaaS profitability."
 						imageBuilder={images.courseTestingJS}
 						courseUrl="https://testingjavascript.com"
 					/>
